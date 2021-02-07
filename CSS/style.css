@@ -1,0 +1,176 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/*---------------NAVBAR-----------------*/
+
+.navbar {
+  background-color: #006ec5;
+}
+
+.navbar button {
+  outline: none;
+}
+
+.nav-item a {
+  color: white !important;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+
+.navbar-nav a:hover {
+  color: black !important;
+}
+
+/*------------CAROUSEL--------------*/
+
+#carouselExampleIndicators {
+  margin-top: 70px;
+}
+
+.carousel-control-prev-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+}
+
+/*------------FEATURES--------------*/
+
+.feature .fas {
+  font-size: 50px;
+  margin-top: 12px;
+}
+
+.feature-top {
+  transition: color 0.5s ease;
+}
+
+.feature-top:hover {
+  color: #006ec5;
+}
+
+#features .feature:hover {
+  transition: transform 2s;
+  transform: scale(1.1);
+}
+
+/*-----------PORTFOLIO--------------*/
+
+.portfolio {
+  margin-bottom: 50px;
+}
+
+/*-----------OUR PRODUCTS--------------*/
+
+#our-products .row {
+  display: flex;
+  justify-content: center;
+}
+
+#our-products {
+  margin-top: 10px;
+}
+
+#our-products .card {
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.card-body:hover {
+  color: white;
+  background-color: #006ec5;
+}
+
+#our-products .card:hover {
+  transition: transform 2s;
+  transform: scale(1.1);
+}
+
+/*-----------SOCIAL--------------*/
+
+#social {
+  margin-top: 30px;
+}
+
+#social p {
+  margin-bottom: 0px;
+}
+
+#social h4 {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.social-networks a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+/*-----------PORTFOLIO SECTION--------------*/
+
+.portfolio .col-md-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*----------------Partners-----------*/
+
+#jssor_1 a {
+  display: flex;
+  align-items: center;
+}
+
+#our-partners {
+  margin-top: 30px !important;
+  margin-bottom: 20px;
+}
+
+#jssor_1 {
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+  left: 0px;
+  width: 980px;
+  height: 100px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#partner-slider {
+  cursor: default;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 980px;
+  height: 100px;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.logo-3 img {
+  width: 90px;
+  height: 90px;
+}
+
+#our-partners h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+/*----------------FOOTER-----------*/
+
+.main-footer {
+  background-color: #006ec5;
+}

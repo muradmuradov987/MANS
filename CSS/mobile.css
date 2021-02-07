@@ -1,0 +1,72 @@
+/*CAROUSEL*/
+
+.carousel-control-prev-icon {
+    width: 10px;
+    height: 10px;
+}
+
+.carousel-control-next-icon {
+    width: 10px;
+    height: 10px;
+}
+
+.carousel-indicators {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 3px;
+}
+
+
+/*FEATURES*/
+
+#features {
+    padding-top: 0px !important;
+}
+
+
+/*SOCIAL SECTION*/
+
+#social h2 {
+    font-size: 1.5rem;
+}
+
+
+/*OUR PAERTNERS SECTION*/
+
+#our-partners {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#our-partners h2 {
+    font-size: 1.5rem;
+}
+
+#jssor_1 {
+    position: relative;
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    width: 980px;
+    height: 200px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#partner-slider {
+    cursor: default;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 980px;
+    height: 200px;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+}
